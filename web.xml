@@ -1,0 +1,38 @@
+<web-app>
+
+<servlet>
+ <servlet-name>Register</servlet-name>
+ <servlet-class>Register</servlet-class>
+</servlet>
+<servlet-mapping>
+ <servlet-name>Register</servlet-name>
+ <url-pattern>/Register</url-pattern>
+</servlet-mapping>
+
+<servlet>
+ <servlet-name>ServletLogin</servlet-name>
+ <servlet-class>ServletLogin</servlet-class>
+</servlet>
+<servlet-mapping>
+ <servlet-name>ServletLogin</servlet-name>
+ <url-pattern>/ServletLogin</url-pattern>
+</servlet-mapping>
+
+<servlet>
+ <servlet-name>StuPhotoUploadServ</servlet-name>
+ <servlet-class>StuPhotoUploadServ</servlet-class>
+</servlet>
+<servlet-mapping>
+ <servlet-name>StuPhotoUploadServ</servlet-name>
+ <url-pattern>/StuPhotoUploadServ</url-pattern>
+</servlet-mapping>
+
+<servlet>
+ <servlet-name>DisplayStuPhoto</servlet-name>
+ <servlet-class>DisplayStuPhoto</servlet-class>
+</servlet>
+<servlet-mapping>
+ <servlet-name>DisplayStuPhoto</servlet-name>
+ <url-pattern>/DisplayStuPhoto</url-pattern>
+</servlet-mapping>
+</web-app>

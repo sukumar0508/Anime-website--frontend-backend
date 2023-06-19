@@ -1,0 +1,131 @@
+* {
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+   }
+   .banner{
+    width:100%;
+    height:320vh ;
+    background: url('bg3.jpeg');
+    background-size: cover;
+    background-position: center;
+    color: black;
+   }
+   .con1{
+    font-size: 20px;
+    margin-top: 80px;
+    margin-left: 477;
+    margin-bottom: -180;
+    margin-top: 150;
+   }
+   .content{
+    width: 100%;
+    position: absolute;
+    top: 10%;
+    transform: translateY(-50%);
+   
+    text-align: center;
+    color: #fff;
+   }
+   .content h1{
+    font-size: 40px;
+    margin-top: 80px;
+   }
+   .box1{
+    width:300px;
+    height: 220px;
+    background-image: linear-gradient(rgba(233, 245, 232, 0),rgba(224, 235, 235, 0)),url('m1.jpeg');
+    background-size: cover;
+    background-position: center;
+    top: 10%;
+    left: 15%;
+    bottom: -10px;
+    transform: translate(-50%,50%);
+    position: absolute;
+    box-sizing: border-box;
+   
+   }
+   .box2{
+    width:400px;
+    height: 220px;
+    background-image: linear-gradient(rgba(233, 245, 232, 0),rgba(224, 235, 235, 0)),url('m2.jpeg');
+    background-size: cover;
+    background-position: center;
+    top: 65%;
+    left: 15%;
+    bottom: -10px;
+    position: absolute;
+    transform: translate(-50%,50%);
+    box-sizing: border-box;
+   }
+   .box3{
+    width:400px;
+    height: 220px;
+    background-image: linear-gradient(rgba(233, 245, 232, 0),rgba(224, 235, 235, 0)),url('m3.jpeg');
+    background-size: cover;
+    background-position: center;
+    top: 130%;
+    left: 15%;
+    bottom: -10px;
+    position: absolute;
+    transform: translate(-50%,50%);
+    box-sizing: border-box;
+   }
+   .box4{
+    width: 270px;
+    height: 220px;
+    background-image: url('m4.jpeg');
+    background-position: center;
+    top: 180%;
+    left: 15%;
+    bottom: -10px;
+    position: absolute;
+    transform: translate(-50%,50%);
+    box-sizing: border-box;
+   }
+   .box5{
+    width:400px;
+    height: 220px;
+    background-image: linear-gradient(rgba(233, 245, 232, 0),rgba(224, 235, 235,0)),url('m5.jpeg');
+    background-position: center;
+    top: 240%;
+    left: 15%;
+    bottom: -10px;
+    position: absolute;
+    transform: translate(-50%,50%);
+    box-sizing: border-box;
+   }
+   a{
+    text-decoration: none;
+    color: blue;
+    text-transform: uppercase;
+   }
+   button{
+    width: 100px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    align-content: left;
+   }
+   span{
+    background: #009688;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+   }
+   button:hover span{
+    width: 100%;
+   }
